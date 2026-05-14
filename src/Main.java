@@ -1,6 +1,14 @@
 public class Main {
 
   public static void main(String[] args) {
-    System.out.println("Hello, World!");
+    ImageFile image = new ImageFile();
+
+    image.fileName = "dog.png";
+    image.fileSize = 100.0;
+
+    image.download();
+    image.printInfo();
+    image.showImage();
+    image.convertType("jpg");
   }
 }
