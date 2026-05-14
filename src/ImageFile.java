@@ -9,6 +9,6 @@ public class ImageFile extends File {
 
   void convertType(String type) {
     imageType = type;
-    System.out.println("파일 형식 변환 완료");
+    System.out.println("파일 형식이 " + type + "로 변환되었습니다.");
   }
 }
