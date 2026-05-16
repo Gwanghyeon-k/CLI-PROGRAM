@@ -4,7 +4,7 @@ public class ImageFile extends File {
   String imageType;
 
   void showImage() {
-    System.out.println("이미지 파일 출력");
+    System.out.println(fileName + " 이미지 파일 출력 (" + width + "x" + height + ", " + imageType + ")");
   }
 
   void convertType(String type) {
